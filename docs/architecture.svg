@@ -1,0 +1,117 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="monospace, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080B18"/>
+      <stop offset="100%" stop-color="#0F1629"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4D9DE0"/>
+      <stop offset="100%" stop-color="#7BB8F0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#4D9DE0" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="620" fill="url(#bg)" rx="12"/>
+
+  <!-- Stars -->
+  <circle cx="45" cy="30" r="1" fill="white" opacity="0.5"/>
+  <circle cx="120" cy="80" r="0.8" fill="white" opacity="0.4"/>
+  <circle cx="780" cy="50" r="1.2" fill="white" opacity="0.6"/>
+  <circle cx="850" cy="120" r="0.7" fill="white" opacity="0.4"/>
+  <circle cx="200" cy="580" r="1" fill="white" opacity="0.3"/>
+  <circle cx="700" cy="590" r="0.9" fill="white" opacity="0.5"/>
+  <circle cx="30" cy="400" r="1.1" fill="white" opacity="0.4"/>
+  <circle cx="870" cy="350" r="0.8" fill="white" opacity="0.5"/>
+
+  <!-- Title -->
+  <text x="450" y="42" text-anchor="middle" fill="#F0F4FF" font-size="18" font-weight="bold" letter-spacing="2">🚀 SPACE EXPLORER — APP ARCHITECTURE</text>
+  <line x1="200" y1="52" x2="700" y2="52" stroke="#4D9DE0" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- ─── UI LAYER ─── -->
+  <rect x="30" y="70" width="840" height="130" rx="12" fill="#141C35" stroke="#1E2A47" stroke-width="1"/>
+  <text x="50" y="92" fill="#4D9DE0" font-size="11" font-weight="bold" letter-spacing="1.5">UI LAYER — SCREENS</text>
+
+  <!-- Screen boxes -->
+  <rect x="50" y="100" width="140" height="80" rx="8" fill="#0F1629" stroke="#4D9DE0" stroke-width="1" opacity="0.8"/>
+  <text x="120" y="133" text-anchor="middle" fill="#4D9DE0" font-size="20">🏠</text>
+  <text x="120" y="153" text-anchor="middle" fill="#F0F4FF" font-size="12" font-weight="bold">HomeScreen</text>
+  <text x="120" y="168" text-anchor="middle" fill="#8899BB" font-size="9">APOD hero + carousel</text>
+
+  <rect x="210" y="100" width="140" height="80" rx="8" fill="#0F1629" stroke="#4D9DE0" stroke-width="1" opacity="0.8"/>
+  <text x="280" y="133" text-anchor="middle" fill="#4D9DE0" font-size="20">🖼️</text>
+  <text x="280" y="153" text-anchor="middle" fill="#F0F4FF" font-size="12" font-weight="bold">GalleryScreen</text>
+  <text x="280" y="168" text-anchor="middle" fill="#8899BB" font-size="9">Grid + date filter</text>
+
+  <rect x="370" y="100" width="140" height="80" rx="8" fill="#0F1629" stroke="#4D9DE0" stroke-width="1" opacity="0.8"/>
+  <text x="440" y="133" text-anchor="middle" fill="#4D9DE0" font-size="20">🌌</text>
+  <text x="440" y="153" text-anchor="middle" fill="#F0F4FF" font-size="12" font-weight="bold">DetailScreen</text>
+  <text x="440" y="168" text-anchor="middle" fill="#8899BB" font-size="9">Full image + bookmark</text>
+
+  <rect x="530" y="100" width="140" height="80" rx="8" fill="#0F1629" stroke="#4D9DE0" stroke-width="1" opacity="0.8"/>
+  <text x="600" y="133" text-anchor="middle" fill="#4D9DE0" font-size="20">⭐</text>
+  <text x="600" y="153" text-anchor="middle" fill="#F0F4FF" font-size="12" font-weight="bold">FavoritesScreen</text>
+  <text x="600" y="168" text-anchor="middle" fill="#8899BB" font-size="9">Firestore stream</text>
+
+  <rect x="690" y="100" width="160" height="80" rx="8" fill="#0F1629" stroke="#1E2A47" stroke-width="1" opacity="0.8"/>
+  <text x="770" y="133" text-anchor="middle" fill="#8899BB" font-size="20">🧩</text>
+  <text x="770" y="153" text-anchor="middle" fill="#F0F4FF" font-size="12" font-weight="bold">Widgets</text>
+  <text x="770" y="168" text-anchor="middle" fill="#8899BB" font-size="9">SpaceImage, Chips, Cards</text>
+
+  <!-- Arrow down from UI to State -->
+  <line x1="450" y1="200" x2="450" y2="240" stroke="#4D9DE0" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+
+  <!-- ─── STATE LAYER ─── -->
+  <rect x="280" y="240" width="340" height="80" rx="12" fill="#141C35" stroke="#FFD166" stroke-width="1.5"/>
+  <text x="450" y="264" text-anchor="middle" fill="#FFD166" font-size="11" font-weight="bold" letter-spacing="1.5">STATE MANAGEMENT — PROVIDER</text>
+  <text x="450" y="288" text-anchor="middle" fill="#F0F4FF" font-size="14" font-weight="bold">ApodProvider</text>
+  <text x="450" y="307" text-anchor="middle" fill="#8899BB" font-size="10">ChangeNotifier · todayApod · recentApods · favorites cache</text>
+
+  <!-- Arrows to services -->
+  <line x1="340" y1="320" x2="220" y2="380" stroke="#4D9DE0" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+  <line x1="560" y1="320" x2="680" y2="380" stroke="#4D9DE0" stroke-width="1.5" opacity="0.6" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+
+  <!-- ─── SERVICES LAYER ─── -->
+  <rect x="30" y="380" width="370" height="100" rx="12" fill="#141C35" stroke="#06D6A0" stroke-width="1.5"/>
+  <text x="215" y="403" text-anchor="middle" fill="#06D6A0" font-size="11" font-weight="bold" letter-spacing="1.5">SERVICE — NASA API</text>
+  <text x="215" y="428" text-anchor="middle" fill="#F0F4FF" font-size="14" font-weight="bold">NasaApiService</text>
+  <text x="215" y="447" text-anchor="middle" fill="#8899BB" font-size="10">fetchTodayApod() · fetchRecentApods()</text>
+  <text x="215" y="463" text-anchor="middle" fill="#8899BB" font-size="10">fetchApodsBetween() · fetchApodByDate()</text>
+
+  <rect x="490" y="380" width="380" height="100" rx="12" fill="#141C35" stroke="#EF476F" stroke-width="1.5"/>
+  <text x="680" y="403" text-anchor="middle" fill="#EF476F" font-size="11" font-weight="bold" letter-spacing="1.5">SERVICE — FIREBASE</text>
+  <text x="680" y="428" text-anchor="middle" fill="#F0F4FF" font-size="14" font-weight="bold">FirebaseService</text>
+  <text x="680" y="447" text-anchor="middle" fill="#8899BB" font-size="10">addFavorite() · removeFavorite() · favoritesStream()</text>
+  <text x="680" y="463" text-anchor="middle" fill="#8899BB" font-size="10">logScreenView() · logApodViewed() · logFavoriteAdded()</text>
+
+  <!-- Arrows to external -->
+  <line x1="215" y1="480" x2="215" y2="530" stroke="#06D6A0" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow)"/>
+  <line x1="680" y1="480" x2="680" y2="530" stroke="#EF476F" stroke-width="1.5" opacity="0.7" marker-end="url(#arrow)"/>
+
+  <!-- ─── EXTERNAL LAYER ─── -->
+  <rect x="30" y="530" width="370" height="72" rx="12" fill="#080B18" stroke="#06D6A0" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="215" y="558" text-anchor="middle" fill="#06D6A0" font-size="13" font-weight="bold">🌐 api.nasa.gov</text>
+  <text x="215" y="578" text-anchor="middle" fill="#8899BB" font-size="10">REST API · DEMO_KEY or personal key</text>
+  <text x="215" y="593" text-anchor="middle" fill="#8899BB" font-size="9">JSON response → ApodModel</text>
+
+  <rect x="490" y="530" width="380" height="72" rx="12" fill="#080B18" stroke="#EF476F" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="680" y="552" text-anchor="middle" fill="#EF476F" font-size="13" font-weight="bold">☁️ Google Firebase</text>
+  <rect x="530" y="560" width="130" height="28" rx="6" fill="#141C35" stroke="#EF476F" stroke-width="0.7"/>
+  <text x="595" y="579" text-anchor="middle" fill="#F0F4FF" font-size="10">Cloud Firestore</text>
+  <rect x="675" y="560" width="150" height="28" rx="6" fill="#141C35" stroke="#EF476F" stroke-width="0.7"/>
+  <text x="750" y="579" text-anchor="middle" fill="#F0F4FF" font-size="10">Firebase Analytics</text>
+
+  <!-- Legend -->
+  <rect x="30" y="490" width="10" height="10" rx="2" fill="#06D6A0"/>
+  <text x="46" y="500" fill="#8899BB" font-size="9">REST · http package</text>
+  <rect x="140" y="490" width="10" height="10" rx="2" fill="#EF476F"/>
+  <text x="156" y="500" fill="#8899BB" font-size="9">Firebase SDK</text>
+  <rect x="250" y="490" width="10" height="10" rx="2" fill="#4D9DE0"/>
+  <text x="266" y="500" fill="#8899BB" font-size="9">ChangeNotifier stream</text>
+</svg>

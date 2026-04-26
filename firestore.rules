@@ -1,0 +1,20 @@
+rules_version = '2';
+// ──────────────────────────────────────────────────────────
+//  Firestore Security Rules — Space Explorer
+//  ⚠️  The rules below allow open read/write (TEST MODE).
+//      Replace before going to production!
+// ──────────────────────────────────────────────────────────
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // DEVELOPMENT — open access
+    match /{document=**} {
+      allow read, write: if true;
+    }
+
+    // PRODUCTION (example — uncomment and customize):
+    // match /favorites/{docId} {
+    //   allow read, write: if request.auth != null;
+    // }
+  }
+}

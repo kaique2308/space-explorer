@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "46640280742",
+    "project_id": "space-explorer-c6b1e",
+    "storage_bucket": "space-explorer-c6b1e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46640280742:android:2714cc9cb428939e873067",
+        "android_client_info": {
+          "package_name": "com.example.space_explorer"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe6AyIF25zRiteJjpCljulOvN4yf8khjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
