@@ -52,7 +52,7 @@ lib/
 │   └── translation_service.dart   # Tradução automática (MyMemory API)
 │
 ├── providers/
-│   └── apod_provider.dart         # ChangeNotifier — estado global do app
+│   └── apod_provider.dart         # ChangeNotifier (estado global do app)
 │
 ├── screens/
 │   ├── main_shell.dart            # Shell de navegação inferior (IndexedStack)
