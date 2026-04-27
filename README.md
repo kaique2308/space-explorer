@@ -71,11 +71,23 @@ Veja o diagrama completo em `docs/architecture.svg`.
 
 ## 📸 Prints da Aplicação
 
-| Home | Galeria | Detalhes | Favoritos |
-|---|---|---|---|
-| ![Home](docs/screenshots/home.png) | ![Galeria](docs/screenshots/gallery.png) | ![Detalhes](docs/screenshots/detail.png) | ![Favoritos](docs/screenshots/favorites.png) |
+<img width="1366" height="768" alt="Captura de tela 2026-04-27 075348" src="https://github.com/user-attachments/assets/c9e0651f-8584-4073-a065-0e5f649f2dfe" />
 
 ---
+
+<img width="1366" height="768" alt="Captura de tela 2026-04-27 075408" src="https://github.com/user-attachments/assets/c6f2e3bf-e998-445d-84b2-99f9fcf778d2" />
+
+---
+
+<img width="1366" height="768" alt="Captura de tela 2026-04-27 075425" src="https://github.com/user-attachments/assets/42cd7875-ca96-4d09-815b-95e632e48779" />
+
+---
+
+<img width="1366" height="768" alt="Captura de tela 2026-04-27 075523" src="https://github.com/user-attachments/assets/914361ef-585f-459a-afda-b17fedf62eaf" />
+
+---
+
+
 
 ## 🚀 Como Executar
 
