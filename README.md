@@ -1,6 +1,6 @@
 # 🚀 Explorador Espacial
 
-> Explore o universo através da Foto Astronômica do Dia da NASA — desenvolvido com Flutter & Firebase.
+> Explore o universo através da Foto Astronômica do Dia da NASA ( desenvolvido com Flutter & Firebase )
 
 ---
 
