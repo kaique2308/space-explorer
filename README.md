@@ -182,9 +182,10 @@ service cloud.firestore {
 ## 📱 Download / Testar
 
 - **Versão Web**: [Clique aqui para testar online](https://flutlab.io/editor/d4385550-47a5-4856-9b27-823bc67466fc)
-- **APK**:[ Execute `flutter build apk --release` e o arquivo estará em `https://github.com/kaique2308/space-explorer/releases/download/v1.0.0/space_explorer.apk`](https://github.com/kaique2308/space-explorer/releases/download/v1.0.0/space_explorer.apk)
+- **APK Android**: [Baixar APK](https://github.com/kaique2308/space-explorer/releases/download/v1.0.0/space_explorer.apk)
 - **QR Code**
-- <img width="250" height="250" alt="baixados" src="https://github.com/user-attachments/assets/8110467c-5b7a-456e-8430-d8316a1f5d9d" />
+
+<img width="250" height="250" alt="QR Code" src="https://github.com/user-attachments/assets/8110467c-5b7a-456e-8430-d8316a1f5d9d" />
 
 
 ---
