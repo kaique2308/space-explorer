@@ -181,7 +181,8 @@ service cloud.firestore {
 
 ## 📱 Download / Testar
 
-- **Versão Web**: [Clique aqui para testar online](https://flutlab.io/editor/ba77ce00-30ef-4800-b6bc-acf13d450401)
+- **Versão Web**: [Clique aqui para testar online](
+)
 - **APK**: Execute `flutter build apk --release` e o arquivo estará em `build/app/outputs/flutter-apk/app-release.apk`
 
 ---
