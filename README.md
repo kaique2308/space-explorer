@@ -188,8 +188,3 @@ service cloud.firestore {
 <img width="250" height="250" alt="QR Code" src="https://github.com/user-attachments/assets/8110467c-5b7a-456e-8430-d8316a1f5d9d" />
 
 
----
-
-## 📄 Licença
-
-MIT © 2025 — Feito com 🚀 e Flutter
